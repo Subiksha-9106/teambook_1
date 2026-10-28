@@ -1,0 +1,25 @@
+TEAMBOOK — RUN IN CHROME ON YOUR PHONE
+
+1. Open PowerShell in this project folder:
+   C:\Users\user\Downloads\TeamBook_Flutter_Mobile_Source
+
+2. Fetch dependencies:
+   & "C:\Users\user\Downloads\xlu task 1\flutter\bin\flutter.bat" pub get
+
+3. Start the web server on all network interfaces:
+   & "C:\Users\user\Downloads\xlu task 1\flutter\bin\flutter.bat" run -d web-server --web-hostname 0.0.0.0 --web-port 8080
+
+4. Find your PC's local IPv4 address:
+   ipconfig
+   Use the IPv4 Address under your active Wi-Fi adapter.
+
+5. Connect your phone to the same Wi-Fi and open Chrome:
+   http://YOUR-PC-IP:8080
+
+To build static web files:
+   & "C:\Users\user\Downloads\xlu task 1\flutter\bin\flutter.bat" build web --release
+
+Important:
+- Sign-up/sign-in in this version is a local demo flow. Accounts are saved in this browser/device, not in a company server.
+- DummyJSON is a public demo API. POST requests simulate creation and do not permanently save data on DummyJSON.
+- Do not use this local authentication for real company accounts without a secure backend.

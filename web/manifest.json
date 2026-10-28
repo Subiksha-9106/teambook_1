@@ -1,0 +1,9 @@
+{
+  "name": "TeamBook",
+  "short_name": "TeamBook",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F5F7FC",
+  "theme_color": "#172554",
+  "description": "A professional employee directory"
+}

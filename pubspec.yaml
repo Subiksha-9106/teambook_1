@@ -1,0 +1,25 @@
+name: teambook
+description: A professional employee directory and management app.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  crypto: ^3.0.6
+  url_launcher: ^6.3.1
+  share_plus: ^10.1.4
+  file_saver: ^0.2.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
